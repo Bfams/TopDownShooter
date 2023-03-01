@@ -162,7 +162,6 @@ GameObject:
   - component: {fileID: 7553049171793019075}
   - component: {fileID: 7553049171793019074}
   - component: {fileID: 7553049171793019073}
-  - component: {fileID: 7553049171793019076}
   m_Layer: 0
   m_Name: Poison Aura
   m_TagString: Untagged
@@ -4980,17 +4979,3 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 3
---- !u!114 &7553049171793019076
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7553049171793019087}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24113e26784a0bd42a4db83f7af06714, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  aura: {fileID: 0}
-  damage: 3
